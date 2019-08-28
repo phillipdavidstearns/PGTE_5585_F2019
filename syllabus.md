@@ -55,8 +55,6 @@ You should synchronize the google drive account associated with your Parsons ema
 ### This schedule is subject to change at any time. Check back regularly!
 
 <table>
-
-	<!--TABLE HEADER-->
 	
 	<tr>
 		<th width="10%">
@@ -72,8 +70,6 @@ You should synchronize the google drive account associated with your Parsons ema
 			Assignments
 		</th>
 	</tr>
-	
-	<!--WEEK 1-->
 
 	<tr>
 		<td valign="top">
@@ -104,7 +100,6 @@ You should synchronize the google drive account associated with your Parsons ema
 			</ul>
 		</td>
 	</tr>
-	
 	
 </table>
 	
