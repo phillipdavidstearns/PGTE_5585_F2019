@@ -20,7 +20,7 @@ The physical and the digital are often thought of as distinct and disparate. Thi
 
 ### Goals
 
-We are physical creatures that interact with the physical world using all our senses. This class will prepares you to move beyond the default modes of human computer interaction—keyboard, mouse, touchpad, touchscreen—and empower you to design and build customized experiences. The study of physical computing gives us a chance create interactions that capitalize on our full range of senses to create truly engaging and magical experiences for users.
+We are physical creatures that interact with the physical world using all our senses. This class will prepares you to move beyond the default modes of human computer interaction---keyboard, mouse, touchpad, touchscreen---and empower you to design and build customized experiences. The study of physical computing gives us a chance create interactions that capitalize on our full range of senses to create truly engaging and magical experiences for users.
 
 ### Learning Outcomes* The creation of engaging, tactile-rich experiences for users.* The creation of fully functional and integrated prototypes.* Detailed documentation of individual projects and lab exercises.* Learning introductory theories and practices of electronic circuits.* Becoming proficient in microcontroller programming.* Learning to identify electronic components, and become literate in circuit schematics.* Gain the ability to design and produce circuit boards.* Explore conceptual models which will critique, enhance, and innovate in the space of Human Computer Interaction.
 
@@ -314,7 +314,7 @@ You should synchronize the google drive account associated with your Parsons ema
 			<p>
 				<strong>Midterm Assigned</strong><br>
 				<ul>
-					<li>Come up with a creative project idea for midterm—can be based on inspiration you found for Assignment 1</li>
+					<li>Come up with a creative project idea for midterm---can be based on inspiration you found for Assignment 1</li>
 					<li>You are required to use minimum of two inputs and two outputs.</li>
 					<li>Publish research on the circuits you need to create</li>
 					<li>Develop bock diagrams, schematics</li>
