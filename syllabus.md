@@ -105,6 +105,9 @@ You should synchronize the google drive account associated with your Parsons ema
 		</td>
 	</tr>
 	
+	
+</table>
+	
 	<!--WEEK 2-->
 
 	<tr>
@@ -585,7 +588,6 @@ You should synchronize the google drive account associated with your Parsons ema
 		</td>
 	</tr>
 
-</table>
 
 ## Software and Platforms
 
