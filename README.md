@@ -1,7 +1,7 @@
 # PGTE_5585_F2019
 
 <div align=center>
-	**Parsons School of Design**<br>
+	<strong>Parsons School of Design</strong><br>
 	MFA Design + Technology<br>
 	Physical Computing 1<br>
 	PGTE 5585; CRN 1945<br>
