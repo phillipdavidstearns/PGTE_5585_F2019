@@ -54,14 +54,6 @@ You should synchronize the google drive account associated with your Parsons ema
 ## Schedule
 ### This schedule is subject to change at any time. Check back regularly!
 
-<!--
-# Schedule: DM-GY-6063-A Creative Coding
-##### Spring 2019 | Phillip David Stearns | Tuesday 18:30 - 21:20 
-
-## Schedule Overview
-### This schedule is subject to change at any time. Check back regularly!
--->
-
 <table>
 
 	<!--TABLE HEADER-->
@@ -135,7 +127,7 @@ You should synchronize the google drive account associated with your Parsons ema
 				<li>Identifying electrical components</li>
 			</ul>
 			<p>
-				<strong>In-class Activity:</strong>
+				<strong>In-class Activity:</strong><br>
 				Creating a simple circuits by using Arduino, resistors and LEDs.
 			</p>
 		</td>
@@ -208,11 +200,13 @@ You should synchronize the google drive account associated with your Parsons ema
 		</td>
 
 		<td valign="top">
-			<strong>Inputs: Analog vs Digital</strong>
-			<ul>
-				<li>Variable resistors, accelerometer, capacitive sensors</li>
-				<li>Libraries in Arduino - capacitive library</li>
-			</ul>
+			<p>
+				<strong>Inputs: Analog vs Digital</strong>
+				<ul>
+					<li>Variable resistors, accelerometer, capacitive sensors</li>
+					<li>Libraries in Arduino - capacitive library</li>
+				</ul>
+			</p>
 			<p>
 				<strong>In-class Activity:</strong><br>
 				Creating a simple circuit by using capacitive sensing(analog input) and LED (digital output).
@@ -257,15 +251,16 @@ You should synchronize the google drive account associated with your Parsons ema
 				<li>Vibrating motors</li>
 			</ul>
 			<p>
-				<strong>In-class Activity:</strong><br>
+				<strong>In-class Activity:</strong>
+				<br>
 				Potentiometer + Buzzer
 			</p>
 		</td>
 
 		<td valign = "top">
 			<p>
-			<strong>Assignment #4 due</strong><br>
-			<strong>Assignment #5 start</strong>
+				<strong>Assignment #4 due</strong><br>
+				<strong>Assignment #5 start</strong>
 			</p>
 			<p>
 			Apply PWM to LEDs
@@ -310,7 +305,8 @@ You should synchronize the google drive account associated with your Parsons ema
 			<strong>Assignment #5 due</strong><br>
 			<strong>Assignment #6 start</strong>
 			<p>
-				Use a Transistor and a	Relay to turn on a higher current load.</p>
+				Use a Transistor and a	Relay to turn on a higher current load.
+			</p>
 			<p>
 				<strong>Midterm Assigned</strong><br>
 				<ul>
@@ -371,8 +367,11 @@ You should synchronize the google drive account associated with your Parsons ema
 		</td>
 
 		<td valign = "top">
-			<strong>Midterms due by start of class</strong>
+			<strong>
+				Midterms due by start of class
+			</strong>
 		</td>
+		
 	</tr>
 	
 	<!--WEEK 9-->
@@ -428,7 +427,7 @@ You should synchronize the google drive account associated with your Parsons ema
 		<td valign="top">
 			<strong>Serial Communication Continues</strong><br>
 			<p>
-				<strong>In class activity:</strong><br>
+				<strong>In class activity:</strong>
 				<ul>
 					<li>Processing to/from Arduino</li>
 					<li>Reading sensor data on processing</li>
@@ -442,7 +441,7 @@ You should synchronize the google drive account associated with your Parsons ema
 				<strong>Assignment #8 start</strong>
 			</p>
 			<p>
-				With you team, implement the design you developed for Assignment 7:
+				With your team, implement the design you developed for Assignment 7:
 				<ul>
 					<li>Submit the code you developed for the Processing and Arduino components</li>
 					<li>Document challenges you encountered and how you overcame them</li>
@@ -464,13 +463,13 @@ You should synchronize the google drive account associated with your Parsons ema
 			11/13
 		</td>
 		
-				<td valign="top">
+		<td valign="top">
 			<p>
-			<strong>Connecting Arduino to internet</strong>
-			<ul>
-				<li>Bluetooth + Wifi</li>
-				<li>ESP8266</li>
-			</ul>
+				<strong>Connecting Arduino to internet</strong>
+				<ul>
+					<li>Bluetooth + Wifi</li>
+					<li>ESP8266</li>
+				</ul>
 			</p>
 			<p>
 				<strong>In class activity:</strong><br>
