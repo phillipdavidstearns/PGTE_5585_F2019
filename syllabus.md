@@ -94,14 +94,23 @@ You should synchronize the google drive account associated with your Parsons ema
 
 		<td valign="top">
 			<ul>
-			<li>Welcome & Syllabus Overview</li>			<li>Introductions</li>
-			<li>Overview of Concepts</li>			<li>Download Arduino & Fritzing</li>			<li>Pseudocode</li>			<li>Order Kits</li>			<li>Making Center : Scheduling & Orientation Sessions</li>
+				<li>Welcome & Syllabus Overview</li>
+				<li>Introductions</li>
+				<li>Overview of Concepts</li>
+				<li>Download Arduino & Fritzing</li>
+				<li>Pseudocode</li>
+				<li>Order Kits</li>
+				<li>Making Center : Scheduling & Orientation Sessions</li>
+			</ul>
 		</td>
 
 		<td valign = "top">
-			<strong>Assignment #1 start</strong><br>			<ul>
-			<li>Buy all required components and tools</li>			<li>Find a cool interactive project example and create a Medium post about it. Describe the project, identify the tools techniques, software involved. Write about what you find inspiring. Reflect on what you want to make this semester.</li>
-			</ul>		</td>
+			<strong>Assignment #1 start</strong><br>
+			<ul>
+				<li>Buy all required components and tools</li>
+				<li>Find a cool interactive project example and create a Medium post about it. Describe the project, identify the tools techniques, software involved. Write about what you find inspiring. Reflect on what you want to make this semester.</li>
+			</ul>
+		</td>
 	</tr>
 	
 	<!--WEEK 2-->
@@ -116,11 +125,15 @@ You should synchronize the google drive account associated with your Parsons ema
 		</td>
 
 		<td valign="top">
-			<strong>Electricity</strong>			<ul>
-				<li>Basic Electronics & Ohm’s Law</li>				<li>Power Supplies</li>
-				<li>Schematics</li>				<li>Block Diagrams</li>
+			<strong>Electricity</strong>
+			<ul>
+				<li>Basic Electronics & Ohm’s Law</li>
+				<li>Power Supplies</li>
+				<li>Schematics</li>
+				<li>Block Diagrams</li>
 				<li>Parallel vs. Serial circuits</li>
-				<li>Identifying electrical components</li>			</ul>
+				<li>Identifying electrical components</li>
+			</ul>
 			<p>
 				<strong>In-class Activity:</strong>
 				Creating a simple circuits by using Arduino, resistors and LEDs.
@@ -129,10 +142,14 @@ You should synchronize the google drive account associated with your Parsons ema
 
 		<td valign = "top">
 			<strong>Assignment #1 due</strong>
-			<br>			<strong>Assignment. #2 start</strong>			<ul>
-				<li>Build a series circuit + Build a parallel circuit</li>				<li>Create a custom switch built from novel materials</li>				<li>Draw the circuit diagrams of your projects</li>
-				<li>Publish Documentation to Medium</li>
+			<br>
+			<strong>Assignment. #2 start</strong>
 			<ul>
+				<li>Build a series circuit + Build a parallel circuit</li>
+				<li>Create a custom switch built from novel materials</li>
+				<li>Draw the circuit diagrams of your projects</li>
+				<li>Publish Documentation to Medium</li>
+			</ul>
 		</td>
 	</tr>
 	
@@ -148,20 +165,32 @@ You should synchronize the google drive account associated with your Parsons ema
 		</td>
 
 		<td valign="top">
-			<strong>Microcontrollers & Sensors</strong>			<ul>
-				<li>Programming concepts</li>				<li>Digital I/O</li>
-				<li>Analog Input</li>				<li>Introduction to Arduino</li>			</ul>
-			<p>				<strong>In-class Activity:</strong>				Creating simple circuits by using a switch (digital input) and LED (digital output) and Arduino.
+			<strong>Microcontrollers & Sensors</strong>
+			<ul>
+				<li>Programming concepts</li>
+				<li>Digital I/O</li>
+				<li>Analog Input</li>
+				<li>Introduction to Arduino</li>
+
+			</ul>
+			<p>
+				<strong>In-class Activity:</strong>
+				Creating simple circuits by using a switch (digital input) and LED (digital output) and Arduino.
+			</p>
 		</td>
 
 		<td valign = "top">
-			<strong>Assignment #2 due</strong><br>			<strong>Assignment #3 start</strong>			<p>
+			<strong>Assignment #2 due</strong><br>
+			<strong>Assignment #3 start</strong>
+			<p>
 				Create a simple application using one button and two leds:
 				<ul>
-					<li>If button is pressed for 3 seconds, one LED shouldlight up.</li>					<li>If button is pressed for 6 seconds, another LEDshould light up.</li>
+					<li>If button is pressed for 3 seconds, one LED should light up.</li>
+					<li>If button is pressed for 6 seconds, another LED should light up.</li>
 				</ul>
 			</p>
-			<p>				(Hint: Use INPUT_PULLUP for the pin mode)<br>
+			<p>
+				(Hint: Use INPUT_PULLUP for the pin mode)<br>
 				Draw the circuit diagram of your project.
 			</p>
 		</td>
@@ -179,24 +208,31 @@ You should synchronize the google drive account associated with your Parsons ema
 		</td>
 
 		<td valign="top">
-		<strong>Inputs: Analog vs Digital</strong>
-		<ul>
-			<li>Variable resistors, accelerometer, capacitive sensors</li>			<li>Libraries in Arduino - capacitive library		</ul>
+			<strong>Inputs: Analog vs Digital</strong>
+			<ul>
+				<li>Variable resistors, accelerometer, capacitive sensors</li>
+				<li>Libraries in Arduino - capacitive library</li>
+			</ul>
 			<p>
-				<strong>In-class Activity:</strong>				Creating a simple circuit by using capacitive sensing(analog input) and LED (digital output).
+				<strong>In-class Activity:</strong><br>
+				Creating a simple circuit by using capacitive sensing(analog input) and LED (digital output).
 			</p>
 		</td>
 
 		<td valign = "top">
-			<strong>Assignment #3 due</strong><br>			<strong>Assignment #4 start</strong>			<p>
+			<strong>Assignment #3 due</strong><br>
+			<strong>Assignment #4 start</strong>
+			<p>
 				Experiment with different forms of analog inputs to control LED behaviors. For Example:
 				<ol>
 					<li>Use a potentiometer to change the rate of a blinking LED</li>
 					<li>Use capacitive sensing library to indicate when someone is near.</li>
 					<li>Use touch as an interaction with an object, space etc.</li>
 				</ol>
-			</p>			<p>
-				You can increase the number of touch inputs and/or youcan play around with the number and type of outputs.			</p>
+			</p>
+			<p>
+				You can increase the number of touch inputs and/or you can play around with the number and type of outputs.
+			</p>
 		</td>
 	</tr>
 	
@@ -213,19 +249,30 @@ You should synchronize the google drive account associated with your Parsons ema
 
 		<td valign="top">
 			<strong>Outputs</strong>
-			<ul>				<li>Pulse width modulation vs. frequency modulation</li>
-				<li>Low current applications</li>				<li>LEDs (different forms)</li>				<li>Piezo/Buzzer</li>				<li>Vibrating motors</li>			</ul>
+			<ul>
+				<li>Pulse width modulation vs. frequency modulation</li>
+				<li>Low current applications</li>
+				<li>LEDs (different forms)</li>
+				<li>Piezo/Buzzer</li>
+				<li>Vibrating motors</li>
+			</ul>
 			<p>
-				<strong>In-class Activity:</strong>				Potentiometer + Buzzer
+				<strong>In-class Activity:</strong><br>
+				Potentiometer + Buzzer
 			</p>
 		</td>
 
 		<td valign = "top">
 			<p>
-			<strong>Assignment #4 due</strong><br>			<strong>Assignment #5 start</strong>
+			<strong>Assignment #4 due</strong><br>
+			<strong>Assignment #5 start</strong>
 			</p>
-			<p>			Apply PWM to LEDs
-			<ul>				<li>Use “fading” and “smoothing” code to control a (or two / three) LED with a potentiometer or other combination of digital and analog inputs.</li>
+			<p>
+			Apply PWM to LEDs
+				<ul>
+					<li>Use “fading” and “smoothing” code to control a (or two / three) LED with a potentiometer or other combination of digital and analog inputs.</li>
+				</ul>
+			</p>
 		</td>
 	</tr>
 	
@@ -241,11 +288,14 @@ You should synchronize the google drive account associated with your Parsons ema
 		</td>
 
 		<td valign="top">
-			<strong>Datasheets</strong><br>			<strong>High Current Loads</strong><br>			<ul>
+			<strong>Datasheets</strong><br>
+			<strong>High Current Loads</strong><br>
+			<ul>
 				<li>Transistors</li>
 				<li>Relays</li>
 				<li>Servos, DC Motors, H-Bridges</li>
-				<li>ED Strips</li>				<li>Servo Library</li>
+				<li>ED Strips</li>
+				<li>Servo Library</li>
 			</ul>
 			<p>
 				<strong>In class activity:</strong>
@@ -253,18 +303,24 @@ You should synchronize the google drive account associated with your Parsons ema
 					<li>Reading datasheets</li>
 					<li>Servo motor control</li>
 				</ul>
+			</p>
 		</td>
 
 		<td valign = "top">
-			<strong>Assignment #5 due</strong><br>			<strong>Assignment #6 start</strong>			<p>
+			<strong>Assignment #5 due</strong><br>
+			<strong>Assignment #6 start</strong>
+			<p>
 				Use a Transistor and a	Relay to turn on a higher current load.</p>
 			<p>
-				<strong>Midterm Assigned</strong><br>				<ul>
+				<strong>Midterm Assigned</strong><br>
+				<ul>
 					<li>Come up with a creative project idea for midterm—can be based on inspiration you found for Assignment 1</li>
 					<li>You are required to use minimum of two inputs and two outputs.</li>
-					<li>Publish research on the circuits you need tocreate</li>
+					<li>Publish research on the circuits you need to create</li>
 					<li>Develop bock diagrams, schematics</li>
 					<li>define potential problems you might face.</li>
+				</ul>
+			</p>
 		</td>
 	</tr>
 	
@@ -281,8 +337,10 @@ You should synchronize the google drive account associated with your Parsons ema
 
 		<td valign="top">
 			<strong>Analog Circuits & Soldering</strong><br>
-			<strong>Debugging: Hardware & Software</strong>			<ul>
-				<li>Using multimeter</li>				<li>Power Supply Selection</li>
+			<strong>Debugging: Hardware & Software</strong>
+			<ul>
+				<li>Using multimeter</li>
+				<li>Power Supply Selection</li>
 				<li>Tips & Tricks</li>
 				<li>Q&A</li>
 			</ul>
@@ -308,11 +366,12 @@ You should synchronize the google drive account associated with your Parsons ema
 		</td>
 
 		<td valign="top">
-			<strong>Midterm Presentations<br>(Presentation mandatory)</strong>
+			<strong>Midterm Presentations<br>
+			(Presentation mandatory)</strong>
 		</td>
 
 		<td valign = "top">
-			<strong>Midterms due by start ofclass</strong>
+			<strong>Midterms due by start of class</strong>
 		</td>
 	</tr>
 	
@@ -335,19 +394,22 @@ You should synchronize the google drive account associated with your Parsons ema
 					<li>DIY Protocols</li>
 				</ul>
 			</p>
-			<p>				<strong>In class activity:</strong><br>				Arduino to Arduino Messages
+			<p>
+				<strong>In class activity:</strong><br>
+				Arduino to Arduino Messages
 			</p>
 		</td>
 
 		<td valign = "top">
 			<strong>Assignment #7 start</strong><br>
 			<p>
-				Team up with one or two friends to <em>design</em> a simple visualization project by using sensor data and processing (or anotherprogram you choose like PD, MAX, etc.).
+				Team up with one or two friends to <em>design</em> a simple visualization project by using sensor data and processing (or another program you choose like PD, MAX, etc.).
 				<ul>
 					<li>Write a Paragraph Description of the Project</li>
 					<li>Write a Technical Description of tools, parts, techniques</li>
-					<li>Create block diagrams, schematics, pseudocode
-					<li>Publish your progress to Medium
+					<li>Create block diagrams, schematics, pseudocode</li>
+					<li>Publish your progress to Medium</li>
+				</ul>
 			</p>
 		</td>
 	</tr>
@@ -376,7 +438,8 @@ You should synchronize the google drive account associated with your Parsons ema
 
 		<td valign = "top">
 			<p>
-				<strong>Assignment #7 due</strong><br>				<strong>Assignment #8 start</strong>
+				<strong>Assignment #7 due</strong><br>
+				<strong>Assignment #8 start</strong>
 			</p>
 			<p>
 				With you team, implement the design you developed for Assignment 7:
@@ -385,7 +448,7 @@ You should synchronize the google drive account associated with your Parsons ema
 					<li>Document challenges you encountered and how you overcame them</li>
 					<li>Create video documentation of the project in action</li>
 					<li>Publish all this on Medium</li>
-				</ul
+				</ul>
 			</p>
 		</td>
 	</tr>
@@ -417,7 +480,8 @@ You should synchronize the google drive account associated with your Parsons ema
 
 		<td valign = "top">
 			<p>
-				<strong>Assignment #8 due</strong><br>				<strong>Final Project assigned</strong>
+				<strong>Assignment #8 due</strong><br>
+				<strong>Final Project assigned</strong>
 			</p>
 			<p>
 			Create a project proposal that has the following components:
@@ -450,7 +514,8 @@ You should synchronize the google drive account associated with your Parsons ema
 			<p>
 				<strong>OPTIONAL:</strong>
 			</p>
-			<p>				<strong>Raspberry Pi Workshop</strong><br>
+			<p>
+				<strong>Raspberry Pi Workshop</strong><br>
 				Set up a Pi - connect to the internet - read a sensor through PI, control some output
 			</p>
 		</td>
