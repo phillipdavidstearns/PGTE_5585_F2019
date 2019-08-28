@@ -7,7 +7,8 @@
 ### Professor
 Phillip David Stearns<br>
 Contact: TBD<br>
-Office Hours: by Appointment
+Office Hours: by Appointment<br>
+Course Materials Online: [http://github.com/phillipdavidstearns/PGTE\_5585\_F2019](https://github.com/phillipdavidstearns/PGTE_5585_F2019)
 
 ## Physical Computing 1
 
@@ -52,6 +53,7 @@ You should synchronize the google drive account associated with your Parsons ema
 
 ## Schedule
 ### This schedule is subject to change at any time. Check back regularly!
+
 <!--
 # Schedule: DM-GY-6063-A Creative Coding
 ##### Spring 2019 | Phillip David Stearns | Tuesday 18:30 - 21:20 
