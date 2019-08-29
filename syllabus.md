@@ -9,6 +9,7 @@ Phillip David Stearns<br>
 Contact: TBD<br>
 Office Hours: by Appointment<br>
 Course Materials Online: [http://github.com/phillipdavidstearns/PGTE\_5585\_F2019](https://github.com/phillipdavidstearns/PGTE_5585_F2019)
+Slack Workspace: [https://pgte5585f2019.slack.com](https://pgte5585f2019.slack.com)
 
 ## Physical Computing 1
 
