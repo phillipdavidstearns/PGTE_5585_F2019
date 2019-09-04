@@ -8,10 +8,18 @@
 * Fritzing
 * Research Groups
 
-## Project Share
+## Project Share (Volunteers)
 
 * Share some of the project that you find inspiring with the class
-* 
+* Ask questions of your classmates; give feedback; be critical and supportive!
+	* How does it work?
+	* I'd like to build this with you!
+	* This makes me think of...
+	* What problem does this solve?
+	* Can this be used to solve a problem?
+	* What problems does this create?
+	* What ideas do you like too?
+	* What scares you about the project.
 
 ## Electricity
 
@@ -157,14 +165,19 @@ The current that flows through the circuit is dependent upon the amount of **Vol
 
 ### Ohm’s Law
 
+![](images/ohmslaw2.jpg)
+
 Ohm's Law describes the basic relationship of three different elements in an electronic circuit.
 
-* Voltage - amount of motivation for charges to move
-* Current - the actual amount of charges on the move
-* Resistance - the ability for the circuit to allow for charges to move
+* Voltage (Volts) - amount of motivation for charges to move
+* Current (Amps) - the actual amount of charges on the move
+* Resistance (Ohms) - the ability for the circuit to allow for charges to move
+
 
 
 [![](images/ohmslaw.svg)](https://www.electronics-notes.com/articles/basic_concepts/resistance/what-is-ohms-law-formula-equation.php)
+
+
 
 ## Components and Schematic Symbols
 
@@ -225,6 +238,7 @@ But, just so we have it, here is the expanded version of ohm's law that takes in
 * Create a custom switch built from novel materials
 * Draw the circuit diagrams of your projects
 * Publish Documentation to Medium
+* Create a Journal entry that chronicles the research you're doing in other classes that you want to connect to this class. Record some of the thoughts and ideas you have about physical computing, what you might want to work on, what thoughts you have about the idea of making things "smart".
 
 ## External Links
 
