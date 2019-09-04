@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="902.219" height="351.5" viewBox="0, 0, 902.219, 351.5">
+  <g id="Layer_1">
+    <g>
+      <path d="M5.5,187.5 L249.719,187.5 L127.398,5.5 L5.5,187.5" fill="#EEEEEE"/>
+      <path d="M5.5,187.5 L249.719,187.5 L127.398,5.5 L5.5,187.5" fill-opacity="0" stroke="#656565" stroke-width="3"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 171.343, 153)">
+      <tspan x="-18.054" y="11" font-family="ArialMT" font-size="50" fill="#44699D">R</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 84.801, 153)">
+      <tspan x="-6.946" y="11" font-family="ArialMT" font-size="50" fill="#44699D">I</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 127.109, 78.812)">
+      <tspan x="-16.675" y="11.5" font-family="ArialMT" font-size="50" fill="#44699D">V</tspan>
+    </text>
+    <path d="M61.793,105.812 L193.426,105.812" fill-opacity="0" stroke="#656565" stroke-width="4"/>
+    <path d="M128.667,105.812 L128.667,187.5" fill-opacity="0" stroke="#656565" stroke-width="4"/>
+    <g>
+      <path d="M331.5,187.5 L575.719,187.5 L453.398,5.5 L331.5,187.5" fill="#EEEEEE"/>
+      <path d="M331.5,187.5 L575.719,187.5 L453.398,5.5 L331.5,187.5" fill-opacity="0" stroke="#656565" stroke-width="3"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 497.343, 153)">
+      <tspan x="-18.054" y="11" font-family="ArialMT" font-size="50" fill="#44699D">R</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 410.802, 153)">
+      <tspan x="-6.946" y="11" font-family="ArialMT" font-size="50" fill="#44699D">I</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 453.109, 78.812)">
+      <tspan x="-16.675" y="11.5" font-family="ArialMT" font-size="50" fill="#44699D">V</tspan>
+    </text>
+    <path d="M387.793,105.812 L519.426,105.812" fill-opacity="0" stroke="#656565" stroke-width="4"/>
+    <path d="M454.667,105.812 L454.667,187.5" fill-opacity="0" stroke="#656565" stroke-width="4"/>
+    <g>
+      <path d="M653.5,187.5 L897.719,187.5 L775.398,5.5 L653.5,187.5" fill="#EEEEEE"/>
+      <path d="M653.5,187.5 L897.719,187.5 L775.398,5.5 L653.5,187.5" fill-opacity="0" stroke="#656565" stroke-width="3"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 819.343, 153)">
+      <tspan x="-18.054" y="11" font-family="ArialMT" font-size="50" fill="#44699D">R</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 732.802, 153)">
+      <tspan x="-6.946" y="11" font-family="ArialMT" font-size="50" fill="#44699D">I</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 775.109, 78.812)">
+      <tspan x="-16.675" y="11.5" font-family="ArialMT" font-size="50" fill="#44699D">V</tspan>
+    </text>
+    <path d="M709.793,105.812 L841.426,105.812" fill-opacity="0" stroke="#656565" stroke-width="4"/>
+    <path d="M776.667,105.812 L776.667,187.5" fill-opacity="0" stroke="#656565" stroke-width="4"/>
+    <path d="M127.609,98.5 C111.593,98.5 98.609,85.516 98.609,69.5 C98.609,53.484 111.593,40.5 127.609,40.5 C143.626,40.5 156.609,53.484 156.609,69.5 C156.609,85.516 143.626,98.5 127.609,98.5 z" fill-opacity="0" stroke="#C72224" stroke-width="3"/>
+    <path d="M411.302,175.656 C395.285,175.656 382.302,162.672 382.302,146.656 C382.302,130.64 395.285,117.656 411.302,117.656 C427.318,117.656 440.302,130.64 440.302,146.656 C440.302,162.672 427.318,175.656 411.302,175.656 z" fill-opacity="0" stroke="#C72224" stroke-width="3"/>
+    <path d="M819.843,175.656 C803.826,175.656 790.843,162.672 790.843,146.656 C790.843,130.64 803.826,117.656 819.843,117.656 C835.859,117.656 848.843,130.64 848.843,146.656 C848.843,162.672 835.859,175.656 819.843,175.656 z" fill-opacity="0" stroke="#C72224" stroke-width="3"/>
+    <text transform="matrix(1, 0, 0, 1, 128.167, 249.5)">
+      <tspan x="-68.525" y="12" font-family="Avenir-Medium" font-size="50" fill="#44699D">V= I R</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 457.351, 249.5)">
+      <tspan x="-53.25" y="12" font-family="Avenir-Medium" font-size="50" fill="#44699D">I = V</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 775.109, 256.5)">
+      <tspan x="-61.575" y="12" font-family="Avenir-Medium" font-size="50" fill="#44699D">R = V</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 496.851, 313.5)">
+      <tspan x="-15.275" y="12" font-family="Avenir-Medium" font-size="50" fill="#44699D">R</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 819.343, 313.5)">
+      <tspan x="-6.95" y="12" font-family="Avenir-Medium" font-size="50" fill="#44699D">I</tspan>
+    </text>
+    <path d="M470.276,276 L524.426,276" fill-opacity="0" stroke="#45699B" stroke-width="5"/>
+    <path d="M792.768,277 L846.918,277" fill-opacity="0" stroke="#45699B" stroke-width="5"/>
+  </g>
+</svg>

@@ -1,5 +1,6 @@
 # Schedule: PGTE 5585 Physical Computing 1
-##### Fall 2019 | Phillip David Stearns | Wednesdays 19:00 - 21:40 
+
+Fall 2019 | Phillip David Stearns | Wednesdays 19:00 - 21:40 
 
 ## Schedule Overview
 ### This schedule is subject to change at any time. Check back regularly!

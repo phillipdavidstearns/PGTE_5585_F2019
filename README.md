@@ -22,5 +22,5 @@ The physical and the digital are often thought of as distinct and disparate. Thi
 
 ## Resources:
 
-### [Course Syllabus](syllabus.md)
-### [Course Schedule](schedule.md)
+### [Course Syllabus](resources/syllabus.md)
+### [Course Schedule](resources/schedule.md)
