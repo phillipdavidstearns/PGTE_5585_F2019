@@ -4,7 +4,7 @@ Physical computing is a multi disciplinary field where applied computer science,
 
 Topics I'm considering as important to take into account when approaching Physical Computing in the context of an interconnected world of myriad societies include:
 
-## Principles of Design 
+## Principles and Methodologies of Design 
 
 * What are some key elements of design or design principles from other fields or disciplines that we can apply to Physical Computing?
 * How do we translate them to specific aspects of Physical Computing?
@@ -62,6 +62,8 @@ Smart objects were just the beginning. Now there are talks of building whole cit
 * What are some of the companies pushing them?
 * If data is the new oil, what does that make a smart city?
 
+### Starting Points
+
 [Grassroots/Community Smart Cities Project](https://www.designindaba.com/articles/creative-work/architect-s%C3%A9nam%C3%A9-koffi-agbodjinou-building-african-smart-cities)
 
 ## Does my toilet really need to be wifi enabled?
@@ -71,9 +73,9 @@ Does the world need another smart object? Aside from coming with added security 
 * Adding Technology Adds Complexity. Is it Worth it?
 * Think about 
 
-[https://www.ioby.org/project/dontflushme](https://www.ioby.org/project/dontflushme)
-
 ### Staring Points
+
+* [https://www.ioby.org/project/dontflushme](https://www.ioby.org/project/dontflushme)
 
 >The idea of computers sorting through data and detecting patterns is of great interest for analyzing images like mammograms and colonoscopies, and for interpreting electrocardiograms. But is this really transformative or novel?
 
