@@ -1,4 +1,4 @@
-# PGTE_5585_F2019
+# PGTE\_5585\_F2019
 
 <div align=center>
 	<strong>Parsons School of Design</strong><br>
@@ -25,3 +25,4 @@ The physical and the digital are often thought of as distinct and disparate. Thi
 ### [Course Syllabus](resources/syllabus.md)
 ### [Course Schedule](resources/schedule.md)
 ### [Research Presentation Topics](resources/research.md)
+### [Redefining Smart](resources/smart_objects.md)
