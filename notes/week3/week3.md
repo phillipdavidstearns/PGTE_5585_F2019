@@ -524,6 +524,7 @@ Consider some of the Criticism
 
 * [Why Design Thinking Won't Save You](https://hbr.org/2009/10/why-design-thinking-wont-save)
 * [A critical review of design thinking](https://medium.com/@niklausgerber/a-critical-review-of-design-thinking-44d8aed89e90)
+* [Design Thinking Is A Failed Experiment. So What’s Next?](https://www.fastcompany.com/1663558/design-thinking-is-a-failed-experiment-so-whats-next)
 
 How can we apply these ideas to our project of exploring the notion of "Smart" things?
 

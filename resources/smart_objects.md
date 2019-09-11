@@ -8,6 +8,7 @@ As we progress through Physical Computing, I want you to be constantly thinking 
 * what is a smart object?
 * are there multiple definitions you can think of?
 * do they already exist? where?
+* what were some of the first smart things? (bombs? missiles?)
 * what are some examples of your idea of a smart object?
 * what are some examples of your ideal smart object (what you'd like them to be)?
 * what should they do?
