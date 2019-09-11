@@ -515,7 +515,21 @@ Draw the circuit diagram of your project.
 
 [Redefining Smart](../../resources/smart_objects.md)
 
+Meditate on [Design Thinking](https://mitsloan.mit.edu/ideas-made-to-matter/design-thinking-explained)
+
+* Find some articles that clearly define what it is
+* Clearly summarize the methodology
+
+Consider some of the Criticism
+
+* [Why Design Thinking Won't Save You](https://hbr.org/2009/10/why-design-thinking-wont-save)
+* [A critical review of design thinking](https://medium.com/@niklausgerber/a-critical-review-of-design-thinking-44d8aed89e90)
+
+How can we apply these ideas to our project of exploring the notion of "Smart" things?
+
 Find another project example that relates to your inquiry into our smart new world.
+
+Some things to reflect on in addition to the relation to "Design Thinking"
 
 * How does it relate to your evolving definition of `smart`
 * What are some of its strengths?
