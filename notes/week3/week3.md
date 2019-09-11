@@ -479,11 +479,25 @@ void toggleLED(){
 
 ## Research Groups
 
-* group 1 - presents 
-* group 2 - presents
-* group 3 - presents
-* group 4 - presents
+[Research Presentation Topics](../../resources/research.md)
 
+* **Group 1** - presents week 5 - Design Principles
+	* Akshay
+	* Dylan
+	* Wenjun
+* **Group 2** - presents week 7
+	* Steven
+	* Billy
+	* Franzi
+* **Group 3** - presents week 10
+	* Ashley
+	* Theresa
+	* Julia
+* **Group 4** - presents week 12
+	* Carl
+	* Yunjia
+	* Jessica
+	
 ## Assignment 3
 
 Create a simple application using one button and two LEDs:
@@ -498,6 +512,8 @@ Create a simple application using one button and two LEDs:
 Draw the circuit diagram of your project.
 
 ## Journal Entry
+
+[Redefining Smart](../../resources/smart_objects.md)
 
 Find another project example that relates to your inquiry into our smart new world.
 
