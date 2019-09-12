@@ -6,9 +6,9 @@
 #define QTY_LEDS 2
 
 // variables are declared
-int delay_times[] = { 250, 300 };
+unsigned long delay_times[] = { 250, 300 };
 int led_pins[] = { 12, 13 };
-long last_times[QTY_LEDS];
+unsigned long last_times[QTY_LEDS];
 boolean led_states[QTY_LEDS];
 
 // setup() is run once, variables and IO are initialized

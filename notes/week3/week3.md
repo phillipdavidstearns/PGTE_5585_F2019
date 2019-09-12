@@ -457,7 +457,7 @@ In order to get around this, we can create timer like mechanisms. For this we ne
 * a place to hold a value representing **time elapsed** or **duration** between the events we are triggering, an **interval**.
 
 ```
-long last_time; // **last time**
+unsigned long last_time; // **last time**
 int interval; // **interval**
 boolean led_state;
 
@@ -469,7 +469,7 @@ void setup(){
 }
 
 void loop(){
-	long current_time = millis(); // **current time** read at the start of the loop
+	unsigned long current_time = millis(); // **current time** read at the start of the loop
 	if( current_time - last_time > interval ){ // we then compare the elapsed time with the interval
 		toggleLED();
 		last_time = current_time; // store the current time as the last time the event was triggered
