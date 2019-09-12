@@ -17,6 +17,8 @@
 
 # Arduino Intro
 
+![](images/UNOpinout.jpg)
+
 [**USE THE REFERENCE**](https://www.arduino.cc/reference/en/) - it has everything you need to know to get started and past your initial hurdles!!! *I refer back to it constantly.*
 
 Arduino is a system that allows for the development of software for microcontrollers, the brains of physical computing projects. When we want a microcontroller to perform a particular task, we have to write software that reads inputs, performs some calculations, and changes output. The code has to be uploaded onto the device.
@@ -434,8 +436,11 @@ We've seen enough examples of this already ;)
 * Modify the 'Blink' example in the following ways
 	1. Make it blink slower
 	2. Make it blink faster
-	3. Add a routine that makes it blink when you close a switch
-	4. Modify the routine so that it blinks one speed when one switch is closed and a different speed with another switch is closed
+	3. Make more than one LED blink (using different IO pins!!!)
+	4. Make them blink at different rates
+	5. Make them blink independently
+	6. Add a routine that makes it blink when you close a switch
+	7. Modify the routine so that it blinks one speed when one switch is closed and a different speed with another switch is closed
 
 ## Timing Tricks
 
