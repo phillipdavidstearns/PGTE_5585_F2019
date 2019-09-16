@@ -249,7 +249,7 @@ You should use an array to store the different delay times or on-off states. Eac
 
 ```
 const int qty_leds = 10; // how many LEDs we are controlling
-boolean led_states[10]; // an array that holds the states initialized to all zeros by default
+boolean led_states[qty_leds]; // an array that holds the states initialized to all zeros by default
 // this is how we initialize an array with specific values
 int led_intervals[] = { 100,
                         200,
