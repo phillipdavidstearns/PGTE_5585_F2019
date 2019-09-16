@@ -362,10 +362,12 @@ We can use evaluative statements to control the flow of our code. **If statement
 ```
 int a;
 int b;
+int c;
 
 void setup(){
 	a = 37;
 	b = 0;
+	c = 48;
 	pinMode(LED_BUILTIN, OUTPUT);
 }
 
@@ -376,12 +378,18 @@ void loop(){
 		digitalWrite(LED_BUILTIN, HIGH);
 	}
 	
-	if ( b >= b++;
+	if ( b < c && b >= 0 ){
+		b++;
+	else {
+		b = 0;
+	}
 	
 	delay(1000);
 }	
 
 ```
+
+Can you describe how the if statements control the light?
 
 ## Inputs and Outputs
 
