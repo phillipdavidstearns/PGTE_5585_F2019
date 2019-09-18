@@ -80,6 +80,13 @@ void loop(){
 * What are pull-down resistors?
 * What's with INPUT_PULLUP?
 
+### Some examples
+
+* [Debounce with Timing](https://github.com/phillipdavidstearns/PGTE_5585_F2019/blob/master/notes/week4/arduino/debounce_000/debounce_000.ino)
+* [Debounced Toggle](https://github.com/phillipdavidstearns/PGTE_5585_F2019/blob/master/notes/week4/arduino/debounce_000.1/debounce_000.1.ino)
+* [Pressed, Released, Held](https://github.com/phillipdavidstearns/PGTE_5585_F2019/blob/master/notes/week4/arduino/debounce_001/debounce_001.ino)
+* [Pressed, Released, Held & functions](https://github.com/phillipdavidstearns/PGTE_5585_F2019/tree/master/notes/week4/arduino/debounce_002)
+
 ## Analog Inputs
 
 ![](images/analog.gif)
@@ -287,7 +294,7 @@ See the documentation for a detailed explanation of the code:
 
 Try to figure out what it's doing!
 
-### Simplified Code
+### [Simplified Code](https://github.com/phillipdavidstearns/PGTE_5585_F2019/blob/master/notes/week4/arduino/CapacitiveSensorDemo/CapacitiveSensorDemo.ino)
 
 ```
 #include <CapacitiveSensor.h>
