@@ -85,7 +85,7 @@ void loop(){
 * [Debounce with Timing](https://github.com/phillipdavidstearns/PGTE_5585_F2019/blob/master/notes/week4/arduino/debounce_000/debounce_000.ino)
 * [Debounced Toggle](https://github.com/phillipdavidstearns/PGTE_5585_F2019/blob/master/notes/week4/arduino/debounce_000.1/debounce_000.1.ino)
 * [Pressed, Released, Held](https://github.com/phillipdavidstearns/PGTE_5585_F2019/blob/master/notes/week4/arduino/debounce_001/debounce_001.ino)
-* [Pressed, Released, Held & functions](https://github.com/phillipdavidstearns/PGTE_5585_F2019/tree/master/notes/week4/arduino/debounce_002)
+* [Pressed, Released, Held & functions](https://github.com/phillipdavidstearns/PGTE_5585_F2019/tree/master/notes/week4/arduino/debounce_002E)
 
 ## Analog Inputs
 
