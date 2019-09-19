@@ -288,7 +288,7 @@ Examples from included and custom libraries can be found in `File > Examples >`
 
 ![](images/capacitive_001.png)
 
-See the documentation for a detailed explanation of the code:
+See the [documentation](https://playground.arduino.cc/Main/CapacitiveSensor/) for a detailed explanation of the code and how to connect:
 
 ![](images/capacitive_002.png)
 
