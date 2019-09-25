@@ -216,53 +216,6 @@ void loop() {
 
 What is this code doing?
 
-## Analog Outputs: PWM
-
-![](images/pwm.gif)
-
-(most) Arduino boards do not have built in Digital to Analog converters. But they do have the ability to precisely control the timing of on and off signals.
-
-### Pulses and Rectangle/Square Waves
-
-A pulse is a momentary change in the output of a digital pin from LOW to HIGH.
-
-When pulses arrive at a constant rate or frequency, the produce a pulse wave or rectangle wave. A square wave is a special case of rectangle wave where the duty cycle is 50% on 50% off.
-
-### Duty Cycle and Frequency
-
-If the rate of our pulse stream is fast enough, we can control the duty cycle to achieve effects like dimming an LED or controlling the speed of a DC motor.
-
-With a fast enough frequency and some filtering, you can even [produce audio](https://create.arduino.cc/projecthub/106958/pwm-sound-synthesis-9596f0). This is also the idea behind [Class-D amplifiers](https://en.wikipedia.org/wiki/Class-D_amplifier)
-
-## [analogWrite()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/)
-
-`analogWrite()` uses the PWM output capabilities of the Arduino microprocessors. Each board has specific pins that support PWM output.
-
-* UNO PWM Pins: `3, 5, 6, 9, 10, 11`
-* PWM Frequencies: 490 Hz (pins 5 and 6: 980 Hz)
-
-### Usage:
-
-`analogWrite(pin, value)`
-
-* pin - type `int`
-* value - type `int`, 0 (off) - 255 (on)
-	
-```
-int ledPin = 9;      // LED connected to digital pin 9
-int analogPin = 3;   // potentiometer connected to analog pin 3
-int val = 0;         // variable to store the read value
-
-void setup() {
-  pinMode(ledPin, OUTPUT);  // sets the pin as output
-}
-
-void loop() {
-  val = analogRead(analogPin);  // read the input pin
-  analogWrite(ledPin, val / 4); // analogRead values go from 0 to 1023, analogWrite values from 0 to 255
-}
-```
-
 ## In-Class Exercises
 
 * use a potentiometer to turn on and off an LED
@@ -347,15 +300,14 @@ This image comes from the [Capacitive Sensing Library](https://playground.arduin
 
 The serial monitor gives us a way to send more detailed human readable messages to help us debug the hardware.
 
-## In-Class Exercises
 
-* Get into your groups
-* Wire up the Capacitive Example
+## Assignment
+
+### Wire up the Capacitive Example
+
 * Use the capacitive sensor to:
 	* toggle an led
 	* change the brightness of an LED
-
-## Assignment
 
 ### Experiment with different forms of analog inputs to control LED behaviors. 
 
@@ -366,8 +318,10 @@ The serial monitor gives us a way to send more detailed human readable messages 
 		* pressure
 		* flex
 		* potentimeter
+		* temp
 	* multiple LEDs
 		* on/off, dimming and blinking
+		* make a level indicator
 
 For Example:
 
@@ -380,4 +334,16 @@ You can increase the number of touch inputs and/or you can play around with the 
 
 ### Journal Entry: Based on Discussions
 
-### Group 1 Research Presentation: Design Principles and Methodologies
+* How do YOU relate to the Anchor Words and connected Keywords?
+* What **values** are represented in the groupings that you selected?
+	* What are some of the positive groupings of words you gravitated to?
+		* Why do these resonate with you?
+		* Find a current event the exemplifies this.
+	* What are some of the negative groupings of words you gravitated to?
+		* Why do these resonate with you?
+		* Find a current event the exemplifies this.
+* Are there potential problems that are becoming clear?
+* Are there potential solutions that you want to work on?
+
+
+### NEXT WEEK: Group 1 Research Presentation: Design Principles and Methodologies
