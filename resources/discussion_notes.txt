@@ -1,0 +1,73 @@
+Contextualizing Physical Computing
+
+Considering the smart object craze
+The implications of Ubiquitous Computation
+And what design can possibly mean in these contexts
+
+1. Brain/Mind Map pt 1 - Keyword dump
+2. Brain/Mind Map pt 2 - Making Connections
+3. Making Associations - Grouping and extending keywords
+4. Sharing and discussing our connections
+5. Applications to the way we approach physical computing
+
+Can we use this to identify potential:
+
+* values
+* solutions to problems
+* blind spots
+* trouble spots
+* places to improve
+* risks
+* etc...
+
+---
+Groupings and thoughts
+
+Community - social impact, responsibility and empathy
+Smart Cities 
+positive: comfort, self driving cars,
+negative: replacement, data colleciton
+
+Community - participation, collaborate, contribute
+Smart Cities (Utopian)
+ubiquitous computing
+big data - sensory participation
+
+Digital Brain, AI, Biases
+AI as digital brain - if biases exist in output digital brain makes mistakes
+humans should take responsibility
+	e.g. self-driving cars
+
+Smart City - data collection 5G AI
+sense the whole city
+data transmission
+how to process
+application - smart transportation system
+
+Smart & AI - Human Agency, Data collection, replacement, IoT, Digital brain, networks, privacy surveillance
+	context AI-directed interstate warfare
+Computation - Jacquard Loom
+
+AI - privacy, surveillance, social impact, data-analytics
+The Great HacK as an example of the nexus of these
+
+AI - machine learning, data analysis, biases surveillance
+machine bias is a big topic in regards to surveillance re: image recognition, representation|identity
+
+AI - constrained environment vs creative and imaginative
+the question of the quality of life on earth in the future - AI as a species
+
+Smart - IoT, replacement...
+AI - digital brain generative design, improved creativity
+Skepticism about the improvement of quality of life
+Constrained by machines doing all our jobs
+
+AI ( as a species ) - Adam Curtis "Hyper Normalization" - Eliza program.
+useful fakes?
+
+Smart - Seamless experience, IoT, Insecurity
+Seamless experience <-> Insecurity (spectrum)
+As an end user no control (human agency as a lack)
+
+
+
