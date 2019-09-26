@@ -1,5 +1,5 @@
 /*
-   beepbeeo.ino
+   beepbeep.ino
 
    a sketch to demonstrate using analog input to control the
    frequency of a pulse stream

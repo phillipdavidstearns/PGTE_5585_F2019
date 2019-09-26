@@ -145,6 +145,24 @@ Form up into teams of
 
 ![](images/sound_schematic.png)
 
+## [map()](https://www.arduino.cc/reference/en/language/functions/math/map/)
+
+You might notice that it's a bit annoying to have to code the math to scale between a range of delays based on a range of input in the challenge above.
+
+Thankfully there's a built-in function that allows us to "map" a value from one range onto another.
+
+If we want to scale from 0-1023 to 5ms to 500ms, we use the `map()` function: 
+
+```
+float scaledValue = map(inputValue, 0, 1023, 5, 500);
+```
+
+The generalized formulation of the function is:
+
+```
+map(value, fromLow, fromHigh, toLow, toHigh)
+```
+
 ## Smoothing
 
 ![](images/smooth.gif)
@@ -265,10 +283,10 @@ Some cool properties:
 ## Assignment 5
 
 
-* Modify the easing code example to toggle easing on and easing off when triggered by an analog event.
-* Modify the easing code example to use `sin()` to do a single smooth pulse in response to an analog event.
-* use `pow()` and `sin()` to make an LED breathe
-* use your smoothing super powers  to modulate the pitch of a buzzer in different ways to digital and analog inputs.
+* Modify the first easing code example (geometric) to toggle easing on and easing off when triggered by an analog event.
+* Modify the second easing code example (progress) to use `sin()` to do a single smooth pulse in response to an analog event.
+* use `pow(x, 2)` and `sin()` to make an LED breathe
+* use your smoothing super powers to modulate the pitch of a buzzer in different ways to digital and/or analog inputs. (bonus)
 
 ## Journal WK 5
 

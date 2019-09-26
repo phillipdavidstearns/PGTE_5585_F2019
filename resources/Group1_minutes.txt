@@ -1,0 +1,73 @@
+Presentation 1
+Design Methodolodies and Principles
+
+WneJun
+Principles 
+
+7 stages of action
+interaction design - donald norman "the design of everyday things"
+	goals
+	solution
+	evaluation
+
+forming the goal - want to do why
+forming intention - how
+specifying action = what options
+executing action - can do now
+evaluating outcome - what happened...
+interpreting the state of the world
+perceiving the state of the world
+
+
+execution - action sequence
+evaluation - 
+
+Applications in PhysComp
+How humans make decision in the pursuit of an objective
+how the user is planning to interact with work work (anticipation)
+
+---
+
+Akshay
+
+Design methods (what assumptions do these models make?)
+	Waterfall Method
+		business analyst >  designer > developer
+	Agile
+		broken down
+		apply waterfall on smaller sub routines or tasks
+		integrated
+	Design Thinking
+		circular
+
+
+How are these applied to physical computing
+
+Dylan
+
+Envisioning scenarios
+	Kinect
+		a toolethat enabled assistance of autistic children
+		surgery
+		more
+
+How to envision the future? (is it always about envisioning the future? how do you account for the unanticipated? how does the unexpected shaped the actual value of a product?)
+
+Understand
+Intuit
+Ground in Fact
+
+Ergonomics as an example
+Ergonomics as study of efficiency in a working environment. (what are the assumed values inherent in ergonomics)
+
+---
+
+Mouse (2D)
+keyboard (qwerty)
+Enigma cracking
+
+---
+
+how much does scale [market] affect the processes and application of design principles and methodologies.
+
+real sense - the next generations of kinect
