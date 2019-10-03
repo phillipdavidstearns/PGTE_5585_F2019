@@ -5,8 +5,7 @@
 * Check-in Q & A
 * Datasheets
 * Diodes and Transitors
-* High-power circuits
-* Inductive Loads (relays, motors, transformers)
+* Motors, H-Bridges, Servos
 
 ## Q&A
 
@@ -14,6 +13,19 @@
 
 * Was there anything from the assignments that got you stumped?
 * Are there any exciting ideas you've encountered that you might want to turn into a project?
+
+## Review
+
+* Analog IO
+* Voltage Dividers
+
+### In Class Exercise:
+
+Use a photo-resistor to control the brightness of an LED
+
+* Draw the Schematic
+* Wire up the Circuit
+* Write the Code
 
 ## Datasheets
 
