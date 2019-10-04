@@ -236,8 +236,9 @@ This is all to show that you don't have to re-invent the wheel AND that there ar
 
 ## Assignment 6:
 
-1. Create a circuit that uses a transistor to control a relay that switches a high-current load (motor or LED strip)
-2. Create a circuit that:
+1. Complete - **Driving a Motor with the H-bridge** Class Exercise "Bidirectional DC Motor"
+2. Complete - **[Adafruit Servo Walkthrough](https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors/)**
+3. Create a circuit that:
 	* Uses the L293D to turn a motor based on an analog input
 	* The motor should not move in a "middle" analog input range (around 512), spin one way if below 512 and spin the other if above.
 	* The motor should close a physical switch
