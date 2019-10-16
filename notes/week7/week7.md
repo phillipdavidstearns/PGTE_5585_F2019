@@ -144,9 +144,11 @@ The main sections:
 
 
 
-## Debugging Code
+## Debugging Code in Arduino
 
 ![](images/debug.gif)
+
+We need to make indicators, kinda like with the circuit debugging.
 
 * Print to the console
 	* [Functions that wrap `Serial.println()`](https://forum.arduino.cc/index.php?topic=215334.msg2438303#msg2438303)
