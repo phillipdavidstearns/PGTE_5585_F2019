@@ -6,21 +6,17 @@
  */
 
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
+  Serial.begin(9600); // init serial communication
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-
+void loop() { // runnin free!!!!!
 }
 
 void serialEvent() {
-  //statements
-  if ( Serial.readString()=="ping" ){
-    Serial.println("pong");
+  if ( Serial.readString()=="ping" ){ // match the string
+    Serial.println("pong"); // do stuff
   } else {
-    Serial.println("...");
+    Serial.println("..."); // otherwise
   }
     
 }

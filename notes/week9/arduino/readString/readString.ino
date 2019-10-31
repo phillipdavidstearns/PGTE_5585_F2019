@@ -1,13 +1,15 @@
+/*
+ *  readString echos serial strings back to the sender
+ */
+
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
+  Serial.begin(9600); // initialize serial communication
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop() { // free runnin'!!!
 }
 
 void serialEvent() {
-  //statements
-  Serial.println(Serial.readString());
+  String message = Serial.readString();
+  Serial.println( message ); // what we receive, we send back!
 }

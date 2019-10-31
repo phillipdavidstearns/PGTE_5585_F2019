@@ -21,16 +21,27 @@ void loop() {
 void serialEvent() {
   //statements
   String command = Serial.readString();
-  if ( command == "ping") { // if else ladder to read and interpret commands
-    Serial.println("pong");
-  } else if ( command == "help") {
+  if ( command == "help") {
     Serial.println();
     Serial.println("---switchFunction help menu---");
-    Serial.println("ping      responds with \"pong\" ");
+    Serial.println("sensor1      prints value of A0");
+    Serial.println("sensor2      prints value of A1");
+    Serial.println("read      prints vaule of A0 and A1");
     Serial.println("help      prints this menu");
-    Serial.println("special   makes the LED blink 5 times");
+    Serial.println("blink   makes the LED blink 5 times");
     Serial.println();
-  } else if ( command == "special") {
+  } else if ( command == "sensor1") { // read sensor1
+    Serial.print("Value of sensor1: ");
+    Serial.println(analogRead(A0));
+  } else if ( command == "sensor2") { // read sensor2
+    Serial.print("Value of sensor2: ");
+    Serial.println(analogRead(A1));
+  } else if ( command == "read") { // read both sensor1 and sensor2
+    Serial.print("Value of sensor1: ");
+    Serial.println(analogRead(A0));
+    Serial.print("Value of sensor2: ");
+    Serial.println(analogRead(A1));
+  } else if ( command == "blink") {
     Serial.print("Blinking built-in LED ");
     Serial.print(blinks);
     Serial.println(" times...");
@@ -41,7 +52,7 @@ void serialEvent() {
 }
 
 void blinkLED() {
-  currentTime = millis(); // staore current time
+  currentTime = millis(); // store current time
   if (blinking && currentTime - lastTime > 250) { //if it's time, do the thing
     LEDState = !LEDState; // toggle LED
     lastTime = currentTime; // store last time we toggled

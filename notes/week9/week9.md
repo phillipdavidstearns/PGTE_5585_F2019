@@ -4,11 +4,11 @@
 
 * Group 3 Research Presentation
 * Discussion
-* Serial COmmunication
+* Serial Communication
 
 ## Group 3 Research Presentation
 
-![](images/yield.gif)
+![](images/yield2.gif)
 
 ## Discussion
 
