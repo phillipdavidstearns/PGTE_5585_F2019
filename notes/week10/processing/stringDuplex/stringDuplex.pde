@@ -8,17 +8,15 @@
  *
  */
 
-
 import processing.serial.*;
 
 Serial myPort;      // The serial port
-String ping = "Ping";  // Variable to hold keystoke values
-String pong = "";    // Incoming serial data
+String response = "";    // Incoming serial data
 String message = "";
 String lastMessage = "";
 
 void setup() {
-  size(400, 300);
+  size(500, 250);
   // create a font with the third font available to the system:
   PFont myFont = createFont(PFont.list()[2], 14);
   textFont(myFont);
@@ -26,37 +24,36 @@ void setup() {
   // List all the available serial ports:
   printArray(Serial.list());
 
-  // I know that the 3rd port in the serial list on my mac
-  // is where my Arduino typically shows up, so I open Serial.list()[2].
-  // Open whatever port is the one you're using.
+  // My Arduino typically shows up at Serial.list()[2].
   String portName = Serial.list()[2];
   myPort = new Serial(this, portName, 9600);
 }
 
 void draw() {
-  background(0);
-  text("Last Received: " + pong, 10, 130);
+  background(0); // set background to black
+  // display the text in the window instead of in the console
+  text("Last Received: " + response, 10, 130); 
   text("Last Sent: " + lastMessage, 10, 100);
   text("Next Message: " + message, 10, 160);
 
-  while (myPort.available() > 0) {
-    pong = myPort.readStringUntil('\n');   
-    //if (pong != null) print(pong);
+  while (myPort.available() > 0) { // while there are messages, read them in
+    response = myPort.readStringUntil('\n');   
+    //if (response != null) print(response);
   }
 }
 
-void keyPressed() {
+void keyPressed() { // let's make it interactive!!!
   // println(byte(key));
-  if ( key == RETURN || key == ENTER ) { // send the message
-    myPort.write(message+char(10));
-    lastMessage=message;
-    message = "";
+  if ( key == RETURN || key == ENTER ) {
+    myPort.write(message+char(10));  // send the message
+    lastMessage=message; // save as lastMessage
+    message = ""; // clear it
   } else if (key == BACKSPACE || key == DELETE) { // delete last character
     if (message.length() > 0)
       message = message.substring( 0, message.length()-1 );
-  } else if ( key!= CODED ) {
+  } else if ( key!= CODED ) { // ignore special keys like SHIFT, CONTROL, UP, etc...
     if (message.length() < 128) message+=key;
-  } else if ( keyCode == UP ) {
+  } else if ( keyCode == UP ) { // recall lastMessage
     message=lastMessage;
   }
 }
