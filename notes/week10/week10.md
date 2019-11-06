@@ -3,9 +3,7 @@
 ## Overview: Serial Communication Part 2
 
 * Processing x Arduino
-* Custom Protocols?
-* Direct Port Address?
-* Open Lab
+* Exercises
 * Assignments:
 	* Interfacing the Arduino with Processing
 	* Journal: Develop concept for Final. Use some of the ideas from class discussion on the notion of "Smart Worlds"
@@ -158,7 +156,107 @@ Find the SerialDuplex example code in the Processing IDE:
 
 ## Again, but with Strings!
 
-## String Parsing??
+### Arduino Code:
+
+* [linked here](arduino/stringProcessing/stringProcessing.ino)
+
+```
+/*
+    stringProcessing accepts serial strings from (Processing)
+*/
+
+void setup() {
+  Serial.begin(9600); // initialize serial communication
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  checkUART(); // serialEvent stopped becoming useful
+}
+
+void checkUART() {
+  while (Serial.available() > 0 ) { // if there's stuff in the UART buffer
+    String message = Serial.readStringUntil('\n'); // read strings until new line
+    message.replace("\n", ""); // strip new line off the message
+    if (message.equals("Ping")) {
+      Serial.println("Pong");
+    } else if (message.equals("Analog 0")) {
+      Serial.println(analogRead(A0));
+    } else {
+      Serial.print("Unrecognized Command: \"");
+      Serial.print(message);
+      Serial.println("\"");
+    }
+  }
+}
+```
+
+### Processing Code
+
+* [linked here](processing/stringDuplex/stringDuplex.pde)
+
+```
+/**
+ * stringDuplex sends and receives strings over serial
+ * A version of 
+ * Serial Duplex 
+ * by Tom Igoe
+ *
+ * Modified by Phillip David Stearns
+ *
+ */
+
+import processing.serial.*;
+
+Serial myPort;      // The serial port
+String response = "";    // Incoming serial data
+String message = "";
+String lastMessage = "";
+
+void setup() {
+  size(500, 250);
+  // create a font with the third font available to the system:
+  PFont myFont = createFont(PFont.list()[2], 14);
+  textFont(myFont);
+
+  // List all the available serial ports:
+  printArray(Serial.list());
+
+  // My Arduino typically shows up at Serial.list()[2].
+  String portName = Serial.list()[2];
+  myPort = new Serial(this, portName, 9600);
+}
+
+void draw() {
+  background(0); // set background to black
+  // display the text in the window instead of in the console
+  text("Last Received: " + response, 10, 130); 
+  text("Last Sent: " + lastMessage, 10, 100);
+  text("Next Message: " + message, 10, 160);
+
+  while (myPort.available() > 0) { // while there are messages, read them in
+    response = myPort.readStringUntil('\n');   
+    //if (response != null) print(response);
+  }
+}
+
+void keyPressed() { // let's make it interactive!!!
+  // println(byte(key));
+  if ( key == RETURN || key == ENTER ) {
+    myPort.write(message+char(10));  // send the message
+    lastMessage=message; // save as lastMessage
+    message = ""; // clear it
+  } else if (key == BACKSPACE || key == DELETE) { // delete last character
+    if (message.length() > 0)
+      message = message.substring( 0, message.length()-1 );
+  } else if ( key!= CODED ) { // ignore special keys like SHIFT, CONTROL, UP, etc...
+    if (message.length() < 128) message+=key;
+  } else if ( keyCode == UP ) { // recall lastMessage
+    message=lastMessage;
+  }
+}
+
+```
 
 ## In-Class Exercises
 
@@ -171,3 +269,19 @@ Find the SerialDuplex example code in the Processing IDE:
 
 * Send data to the Arduino from Processing
 * Have the Arduino change an analog output based on the data it receives
+
+## Assignments:
+
+### Assignment 8:Interfacing the Arduino with Processing
+
+* Build a working demo of a data visualization with bi-directional serial communication between the Arduino and Processing
+
+### Journal:
+
+* Develop concept for Final Use some of the ideas from class discussion on the notion of "Smart Worlds"
+
+### Required Parts for Week 11
+
+* ESP8266 NodeMCU CP2102 ESP-12E
+	* available on amazon and attinkersphere
+	* also available [here](ESP8266 NodeMCU CP2102 ESP-12E)
