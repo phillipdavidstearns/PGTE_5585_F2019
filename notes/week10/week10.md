@@ -276,12 +276,15 @@ void keyPressed() { // let's make it interactive!!!
 
 * Build a working demo of a data visualization with bi-directional serial communication between the Arduino and Processing
 
-### Journal:
+### Journal Week 10:
 
 * Develop concept for Final Use some of the ideas from class discussion on the notion of "Smart Worlds"
 
 ### Required Parts for Week 11
 
 * ESP8266 NodeMCU CP2102 ESP-12E
-	* available on amazon and attinkersphere
-	* also available [here](ESP8266 NodeMCU CP2102 ESP-12E)
+	* available on amazon and [here](https://tinkersphere.com/electronic-components/1388-nodemcu-esp8266-iot-board.html)
+
+#### Additional Resources
+* [NodeMcu -- An open-source firmware based on ESP8266 wifi-soc.](https://www.nodemcu.com/index_en.html)
+* [NodeMCU ESP8266](https://esphome.io/devices/nodemcu_esp8266.html)

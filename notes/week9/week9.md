@@ -108,13 +108,13 @@ Build a circuit that interactively displays the value of 2 different inputs usin
 
 Add to this functionality that controls two different outputs via commands entered over serial.
 
-## Exercise: Arduino 2 Arduino
+## Assignment 7: Arduino 2 Arduino
 
 ![](images/arduino2arduino.png)
 
 Create a communication system that allows Arduino 1 inputs to control Arduino 2 outputs and visa versa.
 
-## Assignment 7: Designing Interaction
+## Journal Week 9: Designing Interaction
 
  Team up with one or two friends to **design** a simple visualization/sonification project by using **sensor data** and **processing** (or another program you choose like PD, MAX, etc.).
 
