@@ -22,18 +22,16 @@ void handleRoot() {
   message += "<h1>Hello World!</h1>";
   message += "<p>A message from Phil's ESP8266</p>";
   message += "<p>";
-  message += "URI: ";
-  message += server.uri();
+  message += "URI: " + server.uri();
   message += "<br>";
-  message += "args: ";
-  message += server.args();
-  for (int i = 0; i < server.args(); ++i){
-    message += "<br>";
-    message += i;
-    message += " : ";
-    message += server.argName(i);
-    message += "=";
-    message += server.arg(i);
+  message += "args: " + server.args();
+  for (int i = 0; i < server.args(); ++i) {
+    String field = server.argName(i);
+    String value = server.arg(i);
+    message += "<br>" + String(i) + " : " + field + "=" + value;
+    if (field.equals("sensor1")) {
+      message += "<br> Sensor 1 value= " + String(analogRead(A0));
+    }
   }
   message += "</p>";
   message += "</html>";

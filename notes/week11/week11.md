@@ -120,6 +120,7 @@ Additional Resources: [Arduino core for ESP8266 WiFi chip](https://github.com/es
 3. Enter `https://arduino.esp8266.com/stable/package_esp8266com_index.json` into the **Additional Board Manager URLs** field.
 4. Click **"Tools"** in the menu bar, mouse over **"Boards: ..."**, then click **"Boards Manager"**
 5. Enter **"esp8266"** in the filter field and install the board package.
+6. You may have to restart your Arduino IDE
 
 Documentation: [Welcome to ESP8266 Arduino Core’s documentation!](https://arduino-esp8266.readthedocs.io/en/2.5.2/)
 
@@ -146,6 +147,11 @@ This should install a bunch of examples and libraries along with the info to com
 
 * [CH340 Drivers for Windows, Mac and Linux](https://sparks.gogo.co.nz/ch340.html)
 
+#### After installing the drivers
+
+6. You may have to restart your Arduino IDE.
+7. Check to see whether your board is recognized.
+
 ### Hello World
 
 Once you have your board connected to and recognized by your computer, it's time to test everything out.
@@ -160,7 +166,7 @@ Once you have your board connected to and recognized by your computer, it's time
 1. Click **File** > mouse over **Examples** > mouse over **ESP8266WebServer** > click **HelloServer**
 2. In **line 7**, change the text `your-ssid` to `Internet.Providers.LAB.01`
 3. In **line 8**, change the text `your-password` to `!ns3cur3`
-4. (optional) Edit the hello world message on line 20. Basically an HTML one-liner at this point.
+4. (optional) Edit the hello world message on line 20. Basically an HTML one-liner at this point. See before/after example below:
 
 Before:
 
@@ -191,16 +197,16 @@ server.send(200, "text/HTML", "<html><h1>Hello World!</h1><br><p>A message from 
 
 ![](images/success.gif)
 
-## In Class Exercises
+
+<!-- ## ESP8266 **ESP-01** Module -->
+
+## Assignments
 
 1. Modify the HelloServer to display the value of an analog sensor using an inline url request, for example `http://10.0.1.3/sensor1`
 2. Modify the sketch to parse inline requests so that a request like this: `http://10.0.1.3/?display=sensor1&LED1=on` displays the value of a sensor and turns on an LED. [hint](https://links2004.github.io/Arduino/d3/d58/class_e_s_p8266_web_server.html)
 
 Explore these new found powers!
 
-<!-- ## ESP8266 **ESP-01** Module -->
-
-## Assignments
 
 ### Research Group 4
 
