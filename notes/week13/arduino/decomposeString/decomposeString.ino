@@ -5,23 +5,21 @@ void setup() {
 
 void loop() {
   if (Serial.available() > 0) {
-    String theCommand = Serial.println(Serial.readStringUntil('\n'));
+    String theCommand = Serial.readStringUntil('\n');
     int numSpaces = 0;
-    for (int i = 0 ; i < theCommand.length(); ++i) {
+    for (uint8_t i = 0 ; i < theCommand.length(); ++i) {
       if (theCommand.charAt(i) == ' ') {
         ++numSpaces;
       }
     }
-    String decompCommand[numSpaces];
-    int spaceIndex == 0;
     int startSub = 0;
     int endSub = 0;
     for (int i = 0 ; i < theCommand.length(); ++i) {
-      if (theCommand.charAt(i + 1) == ' ') {
-        endSub = i;
-        decompCommand[0]=theCommand.substring(startSub, endSub);
-        i+=1;
-        startSub = i+1;
+      if (theCommand.charAt(i + 1) == ' ' || i + 1 >= theCommand.length()) {
+        endSub = i + 1;
+        Serial.println(theCommand.substring(startSub, endSub));
+        i = i + 2;
+        startSub = i;
       }
     }
   }
